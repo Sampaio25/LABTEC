@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Nova+Mono&family=Poppins:ital,wght@0,200;0,300;1,200;1,400;1,500&family=Roboto:wght@100;300;400;500;700&display=swap');
-
-:root{
+:root {
     --primary: #3155e7;
     --primary-dark: #2045d6;
     --black: #010101;
@@ -10,44 +9,43 @@
     --body: #fefefe;
 }
 
-
-
-body{
+body {
     font-family: 'Plus Jakarta Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--body);
 }
 
-.btn{
+.btn {
     border-radius: 8px;
 }
 
 .btn-primary,
-.btn-outline-secondary{
+.btn-outline-secondary {
     padding: 12px 20px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: var(--primary);
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: var(--primary-dark);
 }
 
-.btn-outline-secondary{
+.btn-outline-secondary {
     border: 1px solid var(--gray-2);
     color: var(--black);
 }
 
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover {
     background-color: var(--gray-2);
     border: 1px solid var(--gray-2);
     color: var(--black);
 }
 
+
 /*****************  NAVBAR  ********************/
 
-.navbar .btn-outline-secondary{
+.navbar .btn-outline-secondary {
     border: 1px solid var(--gray-2);
     color: var(--black);
     font-size: 14px;
@@ -56,16 +54,16 @@ body{
     padding: 10px 16px;
 }
 
-.navbar{
+.navbar {
     padding: 32px 0;
 }
 
-.nav-link{
+.nav-link {
     margin-left: 41px;
     font-size: 18px;
 }
 
-.navbar-nav .nav-link.active{
+.navbar-nav .nav-link.active {
     font-weight: bold;
     color: var(--black);
 }
@@ -73,24 +71,23 @@ body{
 
 /*****************  HERO SECTION  ********************/
 
-section.hero{
+section.hero {
     padding: 100px 0;
 }
 
-section.hero .text{
+section.hero .text {
     font-weight: 800;
     font-size: 48px;
     line-height: 73px;
     color: var(--black);
 }
 
-.buttons{
+.buttons {
     padding-top: 69px;
 }
 
-.buttons .btn{
+.buttons .btn {
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
 }
-

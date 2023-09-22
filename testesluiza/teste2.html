@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teste2.css">
+    <title>Calendário</title>
+</head>
+
+<body>
+    <div class="calendar">
+        <div class="controls">
+            <div class="prev-month" onmouseover="changeCursor('prev')" onmouseout="resetCursor('prev')" onclick="navigate(-1)">&#9664;</div>
+            <div class="month-year" id="month-year">Setembro 2023</div>
+            <div class="next-month" onmouseover="changeCursor('next')" onmouseout="resetCursor('next')" onclick="navigate(1)">&#9654;</div>
+        </div>
+        <div class="days">
+            <div class="day">Dom</div>
+            <div class="day">Seg</div>
+            <div class="day">Ter</div>
+            <div class="day">Qua</div>
+            <div class="day">Qui</div>
+            <div class="day">Sex</div>
+            <div class="day">Sáb</div>
+            <!-- Adicione os números dos dias aqui usando JavaScript -->
+        </div>
+    </div>
+    <script src="teste2.js"></script>
+</body>
+
+</html>

@@ -2,7 +2,7 @@
 
     $conn = mysqli_connect('localhost:3308', 'root', 'ubsw', 'labtec');
 
-/*
+
     $hostname = 'localhost:3308'; //Onde está o nosso banco de dados
     $dbname = 'labtec'; //Qual banco de dados que iremos trabalhar
     $username = 'root'; //Usuário de acesso ao banco de dados

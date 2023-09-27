@@ -6,18 +6,21 @@
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="frontend/assets/css/style.css">
+    <link rel="stylesheet" href="../frontend/assets/css/style.css">
 </head>
 
 <body>
     <div class="row">
         <div class="col-md-12">
             <form action="index.html" method="post">
-                <h1> Login </h1>
+                <h1> Cadastro </h1>
 
                 <fieldset>
 
                     <!-- <legend><span class="number">1</span> Your Basic Info</legend> -->
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
 
                     <label for="email">Email:</label>
                     <input type="email" id="mail" name="user_email">
@@ -27,9 +30,9 @@
 
                 </fieldset>
 
-                <button type="submit"><a href="./frontend/home.html">Login</a></button>
+                <button type="submit">Cadastrar</button>
 
-                <p>Não tem conta? <a href="./frontend/cadastro.html">Inscreva-se!</a></p>
+                <p>Já tem conta? <a href="../index.html">Entrar!</a></p>
 
             </form>
         </div>

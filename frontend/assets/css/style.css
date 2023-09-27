@@ -75,6 +75,11 @@ button {
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
     margin-bottom: 10px;
+    text-decoration: none;
+}
+
+button  a {
+    text-decoration: none;
 }
 
 fieldset {
@@ -109,6 +114,10 @@ label.light {
     text-align: center;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
     border-radius: 100%;
+}
+
+a{
+    text-decoration: none;
 }
 
 @media screen and (min-width: 480px) {

@@ -14,4 +14,4 @@
         // echo 'Conexão com o banco '.$dbname.', foi realizada com sucesso';
     } catch (PDOException $e) {
         echo 'Erro: '.$e->getMessage();
-    } */
+    } 
